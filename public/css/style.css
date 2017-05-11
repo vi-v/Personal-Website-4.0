@@ -1,0 +1,253 @@
+::selection {
+  background: #ff195e; /* WebKit/Blink Browsers */
+}
+
+#pinContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#resizeThis {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.md-form {
+  color:white;
+}
+
+.max {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.btn-fb {
+  background-color: #3b5998;
+}
+
+.btn-fb:hover, .btn-fb:focus {
+  background-color: #4568b3 !important;
+}
+
+.btn-fb.active {
+  background-color: #4568b3 !important;
+}
+
+.jumbotron {
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
+  -o-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+}
+
+
+.panel1 {
+  background-image: url(../img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  z-index: 0;
+  position: absolute;
+}
+
+.panel2 {
+  z-index: 10;
+  position: relative;
+}
+
+.panel2header {
+  background: #cb2d3e;
+  position: relative;
+}
+.panel2header:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -70%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: skewY(2.5deg);
+  -moz-transform: skewY(2.5deg);
+  -ms-transform: skewY(2.5deg);
+  -o-transform: skewY(2.5deg);
+  transform: skewY(2.5deg);
+  -webkit-backface-visibility: hidden;
+  background: inherit; /* fallback for old browsers */
+}
+
+.panel3header {
+  position: relative;
+  z-index: 1;
+
+  background: #FAFAFA;
+}
+.panel3header:after {
+  top: -6em;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 150%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+  background: inherit;
+}
+
+.panel4 {
+  width: 100%;
+  height: 500px;
+  color: white;
+  position: relative;
+  z-index: 100;
+}
+
+.contact {
+  background: #673AB7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #673AB7 , #512DA8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #673AB7 , #512DA8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  position: relative;
+}
+
+.contactheader {
+  height: 20%;
+  background: #673AB7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #673AB7 , #512DA8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #673AB7 , #512DA8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.contactheader:after {
+  top: -5em;
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.footer {
+  background: black;
+  width: 100%;
+  height: 13%;
+  position: relative;
+}
+
+.footerheader {
+  height: 10%;
+  background: black;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.footerheader:after {
+  top: -5em;
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 200%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.work {
+  background: #FAFAFA; /* fallback for old browsers */
+}
+
+.work2 {
+  background: #232d3d;
+  width: 100%;
+}
+
+.work2header {
+  height: 20%;
+  background: #232d3d;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.work2header:after {
+  top: -7em;
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 120%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(2deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.hill {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+}
+
+.terrain {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/terrain.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.panel2content {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
